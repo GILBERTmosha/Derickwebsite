@@ -1,0 +1,80 @@
+
+/* 1. Mpangilio wa Jumla */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto; /* Inakaa katikati ya screen */
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+/* 2. Header na Navigation */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+nav {
+    background: #34495e;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #3498db; /* Rangi ikibadilika ukigusa mouse */
+}
+
+/* 3. Sections */
+section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    color: #2c3e50;
+}
+
+/* 4. Profile Image */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%; /* Picha inakuwa ya duara */
+    border: 3px solid #3498db;
+}
+
+/* 5. Skills (List) */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* 6. Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 30px;
+}
+
